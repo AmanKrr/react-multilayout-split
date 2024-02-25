@@ -1,0 +1,15 @@
+nav.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+
+nav .navbar-head {
+  width: 90%;
+  padding: 10px 16px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.051) 0px 5px 15px 0px;
+}

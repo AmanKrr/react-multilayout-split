@@ -1,0 +1,16 @@
+div.ex-container {
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(232, 232, 232);
+  height: calc(100vh - 205px);
+  border-radius: 10px;
+  overflow: auto;
+}
+
+div.t-header {
+  width: 100%;
+  margin: 5px 0;
+}
+
+div.t-header h2 {
+  font-size: 2rem;
+}
