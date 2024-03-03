@@ -1,0 +1,200 @@
+.leftInfoContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.leftInfoContainer .focusPhrase {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.leftInfoContainer .focusPhrase h1 {
+  width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.leftInfoContainer .focusPhrase h1 span {
+  display: block;
+}
+
+.leftInfoContainer .focusPhrase h1 span:first-child {
+  color: #610024;
+  font-weight: 800;
+}
+
+.leftInfoContainer .focusPhrase h1 span:last-child {
+  text-transform: lowercase;
+  color: #970a3e;
+  font-weight: bolder;
+}
+
+.leftInfoContainer .subFocusContent,
+.getStartedBtn {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.leftInfoContainer .subFocusContent p {
+  letter-spacing: 1.8px;
+  color: rgb(65, 65, 65);
+}
+
+.cssbuttons-io-button {
+  background: #980239;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #590021;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #980239;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #6c092d;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+.homeMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.rightSplitDesign {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  .leftInfoContainer {
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .leftInfoContainer .focusPhrase h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 964px) {
+  .leftInfoContainer {
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .leftInfoContainer .focusPhrase h1 {
+    font-size: 3rem;
+  }
+
+  .rightSplitDesign {
+    display: block;
+    width: 45%;
+    height: 350px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    padding-right: 2rem;
+  }
+
+  .mainSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .firstPane {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(192, 192, 192);
+    border-radius: 10px;
+  }
+
+  .secondPane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+
+  .secondPane .rightTopSection {
+    height: 48%;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+  }
+
+  .secondPane .rightBottomSection {
+    height: 48%;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+  }
+
+  .thirdPane {
+    width: 60%;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #d7d7d7;
+  }
+}

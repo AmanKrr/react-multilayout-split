@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./Home.css";
+@import "./DocOptionLayout.css";
+
+body,
+html {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  /* padding: 1rem 3rem; */
+  /* background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+main {
+  padding: 1rem;
+  height: calc(100vh - 30px);
+}
+
+.tempBanner {
+  position: absolute;
+  width: calc(100% - 50px);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(218, 240, 253);
+  color: rgb(98, 98, 98);
+}

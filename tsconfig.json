@@ -22,5 +22,8 @@
   },
   "include": [
     "src"
-, "src/AMultiLayoutSplitter"  ]
+, "src/AMultiLayoutSplitter"  ],
+"exclude": [
+  "component"
+]
 }

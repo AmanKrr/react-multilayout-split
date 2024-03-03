@@ -1,0 +1,92 @@
+.docOption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.docOption .top {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.docOption .top div h1 {
+  font-size: 1.7rem;
+  color: #610024;
+  font-weight: 800;
+}
+
+.docOption .top div p {
+  letter-spacing: 1.4px;
+  color: rgb(65, 65, 65);
+}
+
+.docOption .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.docOption .main button {
+  width: 90%;
+  height: 90px;
+  border: 1px solid #610024;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #610024;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1px;
+}
+
+.docOption .main button p {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 0.6rem;
+  color: rgb(103, 61, 61)
+}
+
+.docOption .main button:hover {
+  width: 90%;
+  height: 90px;
+  border: 1px solid #610024;
+  border-radius: 5px;
+  background-color: #610024;
+  color: #fff;
+}
+
+.docOption .main button:hover p {
+  color: rgb(181, 159, 159)
+}
+
+.docOption .main button:last-child {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .docOption .top div h1 {
+    font-size: 4rem;
+  }
+
+  .docOption .main {
+    width: 800px;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .docOption .main button {
+    font-size: 1.1rem;
+  }
+
+  .docOption .main button p {
+    font-size: 0.8rem;
+  }
+}

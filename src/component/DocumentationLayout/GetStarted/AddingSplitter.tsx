@@ -1,9 +1,8 @@
 import Heading from "../Global/Heading";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { addToProject } from "./snippets";
 import { useState } from "react";
-import Split from "../../AMultiLayoutSplitter/dist";
+import { Split } from "a-multilayout-splitter";
 
 function AddingSplitter() {
   const [addToProjectSample, setAddToProjectSample] = useState(false);
@@ -33,7 +32,7 @@ function AddingSplitter() {
           </div>
           <div className="sample-container">
             {addToProjectSample && (
-              <Split mode="horizontal">
+              <Split id="spit1" mode="horizontal">
                 <div>Pane 1</div>
                 <div>Pane 2</div>
               </Split>
